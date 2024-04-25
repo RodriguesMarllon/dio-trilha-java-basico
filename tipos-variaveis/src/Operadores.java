@@ -1,15 +1,11 @@
 public class Operadores {
 
     public static void main(String[] args) {
-        int numero = 5;
-        boolean variavel = true;
+        int numero1 = 1;
+        int numero2 = 2;
 
-        System.out.println(numero -- );
-        System.out.println(numero);
+        boolean simNao = numero1 == numero2;
 
-        variavel = !variavel;
-
-        System.out.println(variavel);
-
+        System.out.println(simNao);
     }
 }
